@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT</title>
+</head>
+<body>
+
+    <script>
+        var x = prompt("Input your marks");
+
+        if(x>100){
+            document.write("Invalid marks");
+        }
+        else if(x<=100 && x>=80){
+            document.write("Congratulations! Your grade is A+.");
+        }
+        else if(x<80 && x>=70){
+            document.write("Your grade is A.");
+        }
+        else if(x<70 && x>=60){
+            document.write("Your grade is A-.");
+        }
+        else if(x<60 && x>=50){
+            document.write("Your grade is B.");
+        }
+        else if(x<50 && x>=40){
+            document.write("Your grade is B-.");
+        }
+        else if(x<40 && x>=33){
+            document.write("Your grade is C.");
+        }
+        else{
+            document.write("Your grade is F. You have failed the exam.");
+        }
+
+    </script>
+
+    
+</body>
+</html>
